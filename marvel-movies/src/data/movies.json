@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "title": "Homem de Ferro",
+    "year": 2008
+  },
+  {
+    "id": 2,
+    "title": "Os Vingadores",
+    "year": 2012
+  },
+  {
+    "id": 3,
+    "title": "Capitão América 2: O Soldado Invernal",
+    "year": 2014
+  },
+  {
+    "id": 4,
+    "title": "Guardiões da Galáxia",
+    "year": 2014
+  },
+  {
+    "id": 5,
+    "title": "Thor: Ragnarok",
+    "year": 2017
+  },
+  {
+    "id": 6,
+    "title": "Pantera Negra",
+    "year": 2018
+  },
+  {
+    "id": 7,
+    "title": "Vingadores: Guerra Infinita",
+    "year": 2018
+  },
+  {
+    "id": 8,
+    "title": "Vingadores: Ultimato",
+    "year": 2019
+  },
+  {
+    "id": 9,
+    "title": "Homem-Aranha: Sem Volta Para Casa",
+    "year": 2021
+  },
+  {
+    "id": 10,
+    "title": "Deadpool & Wolverine",
+    "year": 2024
+  },
+  {
+    "id": 11,
+    "title": "Doutor Estranho",
+    "year": 2016
+  },
+  {
+    "id": 12,
+    "title": "Homem-Formiga",
+    "year": 2015
+  },
+  {
+    "id": 13,
+    "title": "Capitã Marvel",
+    "year": 2019
+  },
+  {
+    "id": 14,
+    "title": "Viúva Negra",
+    "year": 2021
+  },
+  {
+    "id": 15,
+    "title": "Shang-Chi e a Lenda dos Dez Anéis",
+    "year": 2021
+  }
+]
