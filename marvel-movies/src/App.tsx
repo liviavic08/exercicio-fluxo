@@ -6,12 +6,10 @@ export function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState<'year' | 'title'>('year');
 
-  // 1. Filtrar os filmes apenas pelo título
   const filteredMovies = (moviesData as Movie[]).filter((movie) =>
     movie.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  // 2. Ordenar os filmes filtrados
   const sortedMovies = filteredMovies.sort((a, b) => {
     if (sortBy === 'title') {
       return a.title.localeCompare(b.title);
@@ -24,7 +22,6 @@ export function App() {
     <div style={{ padding: '2rem', fontFamily: 'sans-serif', maxWidth: '800px', margin: '0 auto' }}>
       <h1>Filmes da Marvel</h1>
 
-      {/* Controles de Busca e Ordenação */}
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.5rem' }}>
         <div>
           <label><strong>Buscar: </strong></label>
@@ -50,7 +47,6 @@ export function App() {
         </div>
       </div>
 
-      {/* Tabela de Resultados */}
       <table border={1} cellPadding={10} style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
           <tr style={{ backgroundColor: '#f0f0f0' }}>
